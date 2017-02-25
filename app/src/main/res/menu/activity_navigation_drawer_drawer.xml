@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="?android:attr/actionModeWebSearchDrawable"
+            android:title="Search"
+            android:checkable="false"
+            android:visible="true"
+            android:enabled="true"
+            tools:ignore="NewApi" />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@android:drawable/ic_menu_revert"
+            android:title="Home"
+            android:enabled="true"
+            android:checkable="false"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Maps"
+            android:visible="true"
+            android:enabled="true"
+            android:checkable="false" />
+        <item
+            android:id="@+id/nav_fourth_fragment"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Favorites"
+            android:checkable="false"
+            android:enabled="true"
+            android:visible="true" />
+        <item android:title="History"
+            android:id="@+id/nav_fifth_fragment"
+            android:checkable="false"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:visible="true"
+            android:enabled="true" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_sixth_fragment"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"
+                android:visible="true"
+                android:checkable="false"
+                android:enabled="true" />
+            <item
+                android:id="@+id/nav_seventh_fragment"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
